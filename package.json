@@ -33,14 +33,12 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.1.1",
     "most": "^0.16.0",
-    "most-subject": "^1.0.1",
     "rxjs": "^5.0.0-beta.0",
     "tap-nyan": "0.0.2",
     "tape": "^4.3.0"
   },
   "peerDependencies": {
     "most": "^0.16.0",
-    "most-subject": "^1.0.1",
     "rxjs": "^5.0.0-beta.0"
   }
 }
