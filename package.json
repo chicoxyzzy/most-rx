@@ -1,0 +1,46 @@
+{
+  "name": "most-rx",
+  "version": "0.0.0",
+  "description": "Convert Most.js observables to RxJS and vice-versa",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "babel-tape-runner ./tests/index.js",
+    "lint": "eslint src/**/*.js",
+    "preversion": "npm run lint && npm test && npm run build",
+    "postversion": "git push origin HEAD && git push --tags",
+    "postinstall": "npm dedupe",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "observables",
+    "Mobservable",
+    "RxJS",
+    "Rx",
+    "FRP",
+    "converter"
+  ],
+  "author": "Sergei Rubanov",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chicoxyzzy/most-rx.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-tape-runner": "^2.0.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "most": "^0.16.0",
+    "most-subject": "^1.0.1",
+    "rxjs": "^5.0.0-beta.0",
+    "tap-nyan": "0.0.2",
+    "tape": "^4.3.0"
+  },
+  "peerDependencies": {
+    "most": "^0.16.0",
+    "most-subject": "^1.0.1",
+    "rxjs": "^5.0.0-beta.0"
+  }
+}
