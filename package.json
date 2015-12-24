@@ -1,6 +1,6 @@
 {
   "name": "most-rx",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Convert Most.js observables to RxJS and vice-versa",
   "main": "lib/index.js",
   "scripts": {
