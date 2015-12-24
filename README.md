@@ -5,7 +5,7 @@ The [RxJS 5](https://github.com/ReactiveX/RxJS) and [Most](https://github.com/mw
 ### Installation
 
 ```
-npm install --save rx-mobservable
+npm install --save most-rx
 ```
 
 ### Usage
