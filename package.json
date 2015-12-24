@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "test": "babel-tape-runner ./tests/index.js",
+    "test": "babel-tape-runner ./tests/index.js | tnyan",
     "lint": "eslint src/**/*.js",
     "preversion": "npm run lint && npm test && npm run build",
     "postversion": "git push origin HEAD && git push --tags",
