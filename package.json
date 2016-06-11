@@ -27,18 +27,21 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.3.17",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-tape-runner": "^2.0.0",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.1.1",
-    "most": "^0.16.0",
-    "rxjs": "^5.0.0-beta.0",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-tape-runner": "^2.0.1",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-react": "^5.1.1",
+    "most": "^0.19.7",
+    "rxjs": "^5.0.0-beta.8",
     "tap-nyan": "0.0.2",
-    "tape": "^4.3.0"
+    "tape": "^4.5.1"
   },
   "peerDependencies": {
-    "most": "^0.16.0",
-    "rxjs": "^5.0.0-beta.0"
+    "most": "^0.19.7",
+    "rxjs": "^5.0.0-beta.8"
   }
 }
